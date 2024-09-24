@@ -32,7 +32,7 @@ class Demo {
          return new A();
      }
      //5
-     public function typeNuLLReturnA():NULL
+     public function typeNuLLReturnA(): ?A
      {
          echo __FUNCTION__ ."<br>";
          return new A();
@@ -62,7 +62,7 @@ class Demo {
          return new B();
      }
      //10
-     public function typeNuLLReturnB():NULL
+     public function typeNuLLReturnB(): ?B 
      {
          echo __FUNCTION__."<br>";
          return new B();
@@ -92,7 +92,7 @@ class Demo {
          return new C();
      }
      //15
-     public function typeNuLLReturnC():NULL
+     public function typeNuLLReturnC(): ?C
      {
          echo __FUNCTION__ ."<br>";
          return new C();
@@ -122,7 +122,7 @@ class Demo {
          return new I();
      }
      //20
-     public function typeNuLLReturnI():NULL
+     public function typeNuLLReturnI(): ?I
      {
          echo __FUNCTION__ ."<br>";
          return new I();
@@ -152,7 +152,7 @@ class Demo {
             return NULL;
     }
     //25
-    public function typeNuLLReturnNuLL():NULL
+    public function typeNuLLReturnNuLL(): ?NULL
     {
             echo __FUNCTION__."<br>";
             return NULL;
